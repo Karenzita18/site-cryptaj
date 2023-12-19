@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'font';
+
+html,
+body {
+	@apply antialiased;
+	font-family: 'Guminert', sans-serif;
+}
+section {
+	@apply md:py-20 py-10 px-5;
+}
+.row {
+	@apply max-w-7xl mx-auto;
+}
+.container {
+	@apply mx-auto;
+}
+
+.testimonial-img {
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+	width: 100%;
+}
+
+.btn_primary {
+	@apply border-brand-300 border rounded-md px-8 py-4 font-medium text-brand-300 uppercase hover:bg-brand-200 duration-500 hover:text-brand-300 hover:font-medium hover:border-brand-200 w-fit;
+}
+.btn_secondary {
+	@apply bg-brand-300 font-medium rounded-md text-white duration-300 py-4 hover:bg-brand-200 hover:text-brand-300 uppercase px-6 block w-fit;
+}
+
+.post_content p {
+	margin-bottom: 1rem;
+	line-height: 1.625;
+	@apply text-lg leading-relaxed text-black/70;
+}
+.post_content h2 {
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	font-size: 1.425rem;
+	font-weight: 700;
+}
+.post_content ul {
+	display: list-item;
+	margin-bottom: 1rem;
+}
+.post_content > ul > li {
+	margin-left: 0.5rem;
+}
+.post_content > ul > li::marker {
+	content: '• ';
+}
+
+.post_content img {
+	border-radius: 0.2rem;
+	margin: 20px 0px;
+}
+
+.post_content > h4 {
+	font-weight: 600;
+	margin-bottom: 1rem;
+	font-size: 1.05rem;
+}
+
+.sliderTratamentos .swiper-button-disabled {
+	opacity: 0.5 !important;
+}
+
+.mySwiperTech-disabled {
+	opacity: 0.3;
+}

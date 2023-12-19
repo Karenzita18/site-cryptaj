@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Guminert';
+    src: url('font/Guminert-Bold.woff2') format('woff2'),
+        url('font/Guminert-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Guminert Bold Oblique';
+    src: url('font/Guminert-BoldOblique.woff2') format('woff2'),
+        url('font/Guminert-BoldOblique.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Guminert Extra';
+    src: url('font/Guminert-ExtraBold.woff2') format('woff2'),
+        url('font/Guminert-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Guminert';
+    src: url('font/Guminert-Light.woff2') format('woff2'),
+        url('font/Guminert-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Guminert Light Oblique';
+    src: url('font/Guminert-LightOblique.woff2') format('woff2'),
+        url('font/Guminert-LightOblique.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Guminert Extra Bold Oblique';
+    src: url('font/Guminert-ExtraBoldOblique.woff2') format('woff2'),
+        url('font/Guminert-ExtraBoldOblique.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Guminert';
+    src: url('font/Guminert-Medium.woff2') format('woff2'),
+        url('font/Guminert-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Guminert Medium Oblique';
+    src: url('font/Guminert-MediumOblique.woff2') format('woff2'),
+        url('font/Guminert-MediumOblique.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Guminert';
+    src: url('font/Guminert.woff2') format('woff2'),
+        url('font/Guminert.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Guminert Regular Oblique';
+    src: url('font/Guminert-RegularOblique.woff2') format('woff2'),
+        url('font/Guminert-RegularOblique.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Guminert Semi Bold Oblique';
+    src: url('font/Guminert-SemiBoldOblique.woff2') format('woff2'),
+        url('font/Guminert-SemiBoldOblique.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Guminert Semi';
+    src: url('font/Guminert-SemiBold.woff2') format('woff2'),
+        url('font/Guminert-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
