@@ -31,11 +31,10 @@ export default function Header() {
   const [navbar, setNavbar] = useState(false);
   const pathname = usePathname();
   const data = {
-    logoAlt: "Sanjefer",
+    logoAlt: "Cryptaj",
     redeSocial: {
-      facebook: "/",
-      linkedIn: "/",
-      instagram: "/",
+      facebook: "https://www.facebook.com/cryptajoficial",
+      instagram: "https://www.instagram.com/cryptajoficial/",
     },
   };
   useEffect(() => {
@@ -54,7 +53,7 @@ export default function Header() {
   return (
     <>
       <header>
-        <div className="bg-brand-100 md:px-5 z-20 font-light border-b border-white/20 relative text-white ">
+        <div className="bg-brand-200 md:px-5 z-20 font-light border-b border-white/20 relative text-white ">
           <div className="max-w-7xl mx-auto flex place-content-between">
             <div className="flex place-items-center gap-x-5">
               <a
@@ -84,14 +83,6 @@ export default function Header() {
                 className="p-3"
               >
                 <FaInstagram />
-              </a>
-              <a
-                href={data.redeSocial.linkedIn}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-3"
-              >
-                <FaLinkedinIn />
               </a>
             </div>
           </div>
@@ -127,7 +118,7 @@ export default function Header() {
                       <Link
                         key={item.name}
                         href={`${item.href}`}
-                        className="cursor-pointer tracking-wider px-3 py-7 font-medium hover:text-brand-200 text-brand-100"
+                        className="cursor-pointer tracking-wider px-3 py-7 font-medium hover:text-brand-100 text-brand-200"
                       >
                         {item.name}
                       </Link>

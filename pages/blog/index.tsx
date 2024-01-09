@@ -14,7 +14,7 @@ const BlogPage = ({ allPosts }: Props) => {
   return (
     <Layout
       ogTitle="Blog"
-      ogOriginalUrl="https://www.clinicakarencampos.com.br/blog"
+      ogOriginalUrl="/"
       ogDescription="Fique por dentro das últimas notícias"
     >
       <HeroPage

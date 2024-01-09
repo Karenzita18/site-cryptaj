@@ -26,9 +26,6 @@ const HeroPage: React.FC<PropsHero> = ({ title, subtitle, imgSrc }) => {
             {title}
           </h1>
           <p className="max-w-md pb-10 md:pb-28 text-white">{subtitle}</p>
-          <span className="bg-brand-100 py-2 text-[0.805rem] md:text-base md:py-3 h-full w-fit px-4 text-white font-medium md:font-bold">
-            Home | {title}
-          </span>
         </div>
       </div>
     </section>

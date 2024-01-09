@@ -1,9 +1,10 @@
 const navigation = [
    { name: 'Home', href: '/' },
-   //{ name: 'Sobre Nós', href: '/sobre-nos' },
-   //{ name: 'Tratamentos', href: '/tratamentos' },
+   { name: 'Quem Somos', href:'/quem-somos'},
+   { name: 'Criptas Funerárias', href:'/criptas-funerarias'},
+   { name: 'Construção Casas', href:'/construcao-casas'},
    { name: 'Blog', href: '/blog' },
-   //{ name: 'Contato', href: '/contato' },
- ];
+   { name: 'Contato', href:'/contato'},
+ ]
 export default navigation;
  
